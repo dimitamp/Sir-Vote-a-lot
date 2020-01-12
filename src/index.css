@@ -1,0 +1,63 @@
+/* Additional Styles that couldnt be applied with Styled Components*/
+.flex-1 {
+  flex: 1;
+}
+
+.flex-0_9 {
+  flex: 0.9;
+}
+
+.flex-0_8 {
+  flex: 0.8;
+}
+
+.flex-0_7 {
+  flex: 0.7;
+}
+
+.flex-0_6 {
+  flex: 0.6;
+}
+
+.flex-0_5 {
+  flex: 0.5;
+}
+
+.flex-0_4 {
+  flex: 0.4;
+}
+
+.flex-0_3 {
+  flex: 0.3;
+}
+
+.flex-0_2 {
+  flex: 0.2;
+}
+
+.flex-0_1 {
+  flex: 0.1;
+}
+
+.center-self-vertical {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.center-self-horizontal {
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}
+
+.center-self {
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translateY(-50%, -50%);
+}
+
+body {
+  margin: 0;
+}
