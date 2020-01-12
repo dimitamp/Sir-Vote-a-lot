@@ -1,5 +1,5 @@
-
 # <img src="assets/poll.png" title="Sir Vote-a-lot" alt="Sir Vote-a-lot logo" width="300">
+
 # Sir Vote-a-lot
 
 Sir Vote-a-lot is a simple poll application
@@ -20,7 +20,7 @@ Sir Vote-a-lot is a simple poll application
 $ npm i
 ```
 
-- Create .env file based on [.env.sample](./.env.sample)
+- Create .env file based on [.env.sample](./.env.sample) (env variables are only needed in production)
 
 ### Start app
 
