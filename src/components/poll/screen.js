@@ -76,8 +76,8 @@ const Component = ({create, update, reset, question, answers}) => {
               <AlertContent message="Are you sure you want to reset the poll?" />
             }
             onConfirm={() => {
-              formikProps.handleReset();
               reset();
+              formikProps.resetForm({...formikProps, values: {question: '', answers: [], answer: ''}, errors: [], touched: []});
             }}
             cancelButtonText="No"
             confirmButtonText="Yes"
